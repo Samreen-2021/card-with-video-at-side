@@ -1,0 +1,110 @@
+.left-video-right-text{
+    max-width: 100%;
+    padding: 100px 0;
+    background-color: #111;
+    border: none;
+}
+
+
+.reo-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: none;
+    background-color: #111;
+}
+
+.left-video-right-text .video-img {
+  
+    height: auto;
+    display: inline-block;
+    border-width: 0;
+    transition: opacity 1s;
+    opacity: 1;
+    vertical-align: middle;
+    border-style: none;
+}
+.left-video-right-text .video-shared-by{
+    text-align: end;
+    color: white;
+    margin-top: 5px;
+}
+.left-video-right-text .row{
+    background-color: #111;
+    color: white;
+    
+}
+.left-video-right-text .col-right{
+   
+    padding-right:6%;
+    
+  
+}
+.left-video-right-text .col-right .card-title {
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.left-video-right-text .col-right .card-text{
+    text-align: start;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+.left-video-right-text .col-right ul {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.feature-list {
+    margin-top: 30px;
+}
+.feature-list li {
+    display: inline-block;
+    list-style-type: none;
+}
+.feature-list li .des {
+    font-size: 16px;
+    line-height: 1.2;
+    display: inline-block;
+    margin-left: 20px;
+    width: 150px;
+    vertical-align: middle;
+}
+.feature-list li .icon {
+    font-size: 32px;
+    vertical-align: middle;
+}
+.left-video-right-text span {
+    color: white;
+    font-weight: 400;
+    margin: 0;
+}
+@media only screen and (max-width: 1080px){
+    .container-leftside-img .col-right{
+   
+        padding-right:5%;
+        padding-top: 0px;
+        margin-top: 0%;
+    }
+    .left-video-right-text .row{
+        margin-left: 5px;
+        
+    }
+    .left-video-right-text .col-right .card-title {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1;
+        margin-top: 0%;
+    }
+}
+@media only screen and (max-width: 880px){
+    .feature-list {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+    .left-video-right-text .video-shared-by{
+        text-align: start;
+        
+    }
+
+}
